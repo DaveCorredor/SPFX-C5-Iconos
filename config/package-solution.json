@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-c-5-iconos-client-side-solution",
+    "id": "09e54e26-ed42-4cc0-b3c5-e3e74a785b73",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-c5-iconos description"
+      },
+      "longDescription": {
+        "default": "spfx-c5-iconos description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-c-5-iconos Feature",
+        "description": "The feature that activates elements of the spfx-c-5-iconos solution.",
+        "id": "3c705999-7fa6-40f9-936c-2ea24c2f587c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-c-5-iconos.sppkg"
+  }
+}

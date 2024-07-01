@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "spfx-c-5-iconos",
+    "libraryId": "09e54e26-ed42-4cc0-b3c5-e3e74a785b73",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-c5-iconos",
+    "solutionShortDescription": "spfx-c5-iconos description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

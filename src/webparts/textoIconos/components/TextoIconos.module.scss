@@ -1,0 +1,49 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+	width: 100%;
+}
+
+.singleListContent {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 calc(33.333% - 10px);
+  width: 150px;
+  height: 120px;
+  background: "[theme: neutralLighterAlt]";
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0px 10px rgba(71, 71, 71, .2);
+  color: "[theme: black]";
+}
+
+.iconPicker {
+  font-size: 32px;
+}
+
+.singleListContent h2,
+.singleListContent p {
+  margin: 0px;
+}
+
+
+.singleListContent .singleListIcon [class^="iconPicker"]:before,
+.singleListContent .singleListIcon [class*=" iconPicker"]:before,
+.singleListContent .singleListIcon [class^="iconPicker"]:after,
+.singleListContent .singleListIcon [class*=" iconPicker"]:after {
+  color: "[theme: black]";
+}
+
+
+.singleListContent:hover {
+  color: "[theme: white]";
+  background: "[theme: themeSecondary]";
+  box-shadow: 0 5px 10px rgba(71, 71, 71, .4);
+}
